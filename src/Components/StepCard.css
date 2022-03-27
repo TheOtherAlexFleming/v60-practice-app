@@ -1,0 +1,24 @@
+.step-card {
+  /* background-color: var(--gray); */
+  background-image: linear-gradient(
+    to top,
+    var(--gray) 50%,
+    var(--secondary) 50%
+  );
+  padding: 1.25rem;
+  border-radius: 0.25rem;
+}
+
+.step-text {
+  background-color: rgba(255, 255, 255, 0.2);
+  padding: 0.5rem 0.75rem;
+  text-align: left;
+}
+
+.step-text p {
+  margin: 0.75rem;
+}
+
+.step-num {
+  font-weight: 600;
+}
